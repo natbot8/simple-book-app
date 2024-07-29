@@ -1,0 +1,78 @@
+{
+    "sounds": [
+        {"combination": "ch", "sound": "ph_ch.mp3"}, 
+        {"combination": "sh", "sound": "ph_sh.mp3"},
+        {"combination": "th", "sound": "ph_th.mp3"}, 
+        {"combination": "ou", "sound": "ph_ou.mp3"}
+    ], 
+    "books": [
+        {
+            "folder": "book1",
+            "title": "Chad",
+            "cover": "cover.jpeg",
+            "pages": [
+                { "img": "page1.jpeg", "text": "Chad has a bike." },
+                { "img": "page2.jpeg", "text": "Chad is ready to ride." },
+                { "img": "page3.jpeg", "text": "Chad rides to the park." },
+                { "img": "page4.jpeg", "text": "Chad sees a chick." },
+                { "img": "page5.jpeg", "text": "The chick chirps at Chad." },
+                { "img": "page6.jpeg", "text": "Chad rides his bike home." },
+                { "img": "page7.jpeg", "text": "Chad is happy." }
+            ]
+        },
+        {
+            "folder": "book2",
+            "title": "Trish and the Fish",
+            "cover": "cover.png",
+            "pages": [
+                { "img": "page1.png", "text": "Trish went to the pond." },
+                { "img": "page2.png", "text": "A fish swam to Trish." },
+                { "img": "page3.png", "text": "The fish can splash in the pond." },
+                { "img": "page4.png", "text": "Trish saw a shell." },
+                { "img": "page5.png", "text": "Mom saw Trish, the shell, and the fish." },
+                { "img": "page6.png", "text": "Trish had fun." }
+            ]
+        }, 
+        {
+            "folder": "book3",
+            "title": "Thora Goes to Class",
+            "cover": "cover.jpeg",
+            "pages": [
+                { "img": "page1.jpeg", "text": "Thora does not want to go to class." },
+                { "img": "page2.jpeg", "text": "Thora sees Emi." },
+                { "img": "page3.jpeg", "text": "Thora is happy now." },
+                { "img": "page4.jpeg", "text": "Thora sits with Emi in class." }
+            ]
+        }, 
+        {
+            "folder": "book4",
+            "title": "Emi Goes to Japan",
+            "cover": "cover.png",
+            "pages": [
+                { "img": "page1.png", "text": "Emi goes to Japan." },
+                { "img": "page2.png", "text": "Emi goes to class." },
+                { "img": "page3.png", "text": "Emi works very hard." },
+                { "img": "page4.png", "text": "Emi says suki ringo." }, 
+                { "img": "page5.png", "text": "Emi's mom is proud." },
+                { "img": "page6.png", "text": "Emi's dad is proud." },
+                { "img": "page7.png", "text": "Emi is happy in Japan." }
+            ]
+        }, 
+        {
+            "folder": "book5",
+            "title": "Stroud's Big Day",
+            "cover": "cover.png",
+            "pages": [
+                { "img": "page1.png", "text": "Stroud sang very loud." },
+                { "img": "page2.png", "text": "She made her mom proud." },
+                { "img": "page3.png", "text": "Stroud sang a song." },
+                { "img": "page4.png", "text": "She danced all day long." }, 
+                { "img": "page5.png", "text": "Stroud saw the big crowd." },
+                { "img": "page6.png", "text": "She smiled and then bowed." },
+                { "img": "page7.png", "text": "Stroud went to bed." }, 
+                { "img": "page8.png", "text": "It's time to rest her head." }, 
+                { "img": "page9.png", "text": "Stroud dreams of singing in the clouds." }
+            ]
+        }
+    ]
+}

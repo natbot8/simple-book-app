@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kids Book App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="landing">
+      <img id="landing-image" src="images/landing.jpeg" alt="Landing Image">
+      <div class="navigation">
+        <button id="start-reading" onclick="goHome();letsRead.play()">Let's Read!</button>
+      </div>
+    </div>
+    
+    <div id="home-screen" class="hidden">
+      <h1 class="ml6">
+        <span class="text-wrapper">
+          <span class="letters">Choose a Book</span>
+        </span>
+      </h1>
+      <div id="books-container" class="tiles-container"></div>
+      <div class="controls">
+        <img id="sound-control" class="sound-control control-button" src="images/sound-on.png" onclick="toggleSound()" alt="Sound Control">
+      </div>
+    </div>
+
+    <div id="book-screen" class="hidden">
+      <div id="page-content">
+        <img id="page-image" src="" alt="Book Image">
+        <p id="page-text"></p>
+      </div>
+      <div id="tap-navigation">
+        <div id="tap-prev" class="tap-area"></div>
+        <div id="tap-middle" class="tap-area"></div>
+        <div id="tap-next" class="tap-area"></div>
+      </div>
+      <div class="controls">
+        <img id="sound-control" class="sound-control control-button" src="images/sound-on.png" onclick="toggleSound()" alt="Sound Control">
+        <img id="home" class="home-button control-button" src="images/home.png" onclick="goHome()" alt="Navigate Home">
+      </div>
+    </div>
+
+    <div id="end-screen" class="hidden">
+      <h1 class="ml2">The End</h1>
+      <div id="confetti-container"></div>
+      <div class="controls">
+        <img id="sound-control" class="sound-control control-button" src="images/sound-on.png" onclick="toggleSound()" alt="Sound Control">
+        <img id="home" class="home-button control-button" src="images/home.png" onclick="goHome()" alt="Navigate Home">
+      </div>
+    </div>
+
+    <script src="confetti.js"></script>
+    <script src="audio.js"></script>
+    <script src="script.js"></script>
+    <script src="animate-text.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+</body>
+</html>
